@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle Music</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+
+  <body data-theme="light">
+    <div class="app">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div>
+          <div class="logo">Circle</div>
+
+          <nav class="menu">
+            <a href="#" class="active"
+              ><i class="fa-solid fa-house"></i> Home</a
+            >
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a>
+            <a href="#"><i class="fa-solid fa-list"></i> Playlists</a>
+            <a href="#"><i class="fa-solid fa-bell"></i> Notifications</a>
+            <a href="#"><i class="fa-solid fa-star"></i> Premium</a>
+          </nav>
+        </div>
+
+        <div class="sidebar-bottom">
+          <a href="#" class="download-link">
+            <i class="fa-solid fa-download"></i> Download Desktop App
+          </a>
+          <div class="user-card">
+            <img src="assets/images/pic.jpg" alt="User Avatar" class="avatar" />
+            <span class="username">Jonathon Trott</span>
+            <i class="fa-solid fa-chevron-down arrow"></i>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Popular Albums -->
+        <section class="popular-albums">
+          <div class="music-tags">
+            <button class="tag active">Music</button>
+            <button class="tag">Podcasts</button>
+            <button class="tag">Jazz</button>
+            <button class="tag">Electronic</button>
+            <button class="tag">Rock Classic</button>
+            <button class="tag">Hip Hop</button>
+          </div>
+          <h3>Popular Albums</h3>
+
+          <div class="album-list">
+            <div class="album-card">
+              <img src="assets/images/pic.jpg" alt="Album" />
+              <div class="info">
+                <h4>Ephemeral Dreams</h4>
+                <p>Sarah Melody</p>
+                <div class="meta">
+                  <span>12 Tracks</span> • <span>31K Likes</span>
+                </div>
+              </div>
+              <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            </div>
+
+            <div class="album-card">
+              <img src="assets/images/pic.jpg" alt="Album" />
+              <div class="info">
+                <h4>Ephemeral Dreams</h4>
+                <p>Sarah Melody</p>
+                <div class="meta">
+                  <span>12 Tracks</span> • <span>31K Likes</span>
+                </div>
+              </div>
+              <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            </div>
+
+            <div class="album-card">
+              <img src="assets/images/pic.jpg" alt="Album" />
+              <div class="info">
+                <h4>Ephemeral Dreams</h4>
+                <p>Sarah Melody</p>
+                <div class="meta">
+                  <span>12 Tracks</span> • <span>31K Likes</span>
+                </div>
+              </div>
+              <button class="play-btn"><i class="fa-solid fa-play"></i></button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Picked for You -->
+        <section class="picked">
+          <h2>Picked for you</h2>
+          <div class="picked-list">
+            <div class="picked-card">
+              <img src="assets/images/pic.jpg" alt="Playlist" />
+              <div class="picked-info">
+                <span class="label">PLAYLIST</span>
+                <h3>New Music Friday Pakistan</h3>
+                <p>
+                  Listen to the fresh new music from Pakistan and around the
+                  world.
+                </p>
+
+                <div class="meta">
+                  <span>03:21:23</span>
+                  <span>1.3M Likes</span>
+                  <span>32 Tracks</span>
+                </div>
+
+                <div class="tags">
+                  <span>Podcasts</span>
+                  <span>Audio Books</span>
+                  <span>Classic Fusion</span>
+                </div>
+
+                <div class="actions">
+                  <div class="action-left">
+                    <button class="icon-btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button class="icon-btn">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </button>
+                  </div>
+                  <button class="play-btn">
+                    <i class="fa-solid fa-play"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Recent -->
+        <section class="recent">
+          <h3>Recent</h3>
+          <div class="recent-list">
+            <div class="recent-item">
+              <span><b>1.</b> Eternal Echoes - Sarah Melody</span>
+              <span>04:32</span>
+            </div>
+            <div class="recent-item">
+              <span><b>2.</b> Serenity Symphony - Sarah Melody</span>
+              <span>04:21</span>
+            </div>
+            <div class="recent-item">
+              <span><b>3.</b> Rhythmic Echoes - Alex Harmon</span>
+              <span>03:12</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Right Bar -->
+      <aside class="rightbar">
+        <input
+          type="text"
+          placeholder="Search for something..."
+          class="search-bar"
+        />
+
+        <section class="popular-pics">
+          <h3>Popular Artists</h3>
+          <div class="artist-grid">
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+            <div class="item">
+              <img src="assets/images/pic.jpg" alt="pic" />
+              <span>Sarah Melody</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="top-podcasts">
+          <h3>Top Podcasts</h3>
+          <div class="podcast-list">
+            <div class="podcast-item">
+              <img src="assets/images/pic.jpg" alt="Podcast" />
+              <h4>Mindful Musings</h4>
+            </div>
+            <div class="podcast-item">
+              <img src="assets/images/pic.jpg" alt="Podcast" />
+              <h4>The Creative</h4>
+            </div>
+          </div>
+        </section>
+
+        <section class="queue">
+          <h3>Next in Queue</h3>
+          <div class="queue-item">
+            <span>Eternal Echoes</span>
+            <span>04:32</span>
+          </div>
+          <div class="queue-item">
+            <span>Midnight Reverie</span>
+            <span>04:10</span>
+          </div>
+        </section>
+      </aside>
+
+      <!-- Player Bar -->
+      <footer class="player-bar">
+        <!-- Current Song Info -->
+        <div class="current-song">
+          <img
+            src="assets/images/pic.jpg"
+            alt="Current Song"
+            class="song-cover"
+          />
+          <div class="song-details">
+            <h4 class="song-title">Rhythmic Echoes</h4>
+            <p class="song-artist">Alex Harmon</p>
+          </div>
+          <i class="fa-regular fa-heart song-heart"></i>
+        </div>
+
+        <!-- Player Controls -->
+        <div class="player-controls">
+          <div class="progress-section">
+            <span class="current-time">03:19</span>
+            <div class="progress-bar">
+              <div class="progress-track">
+                <div class="progress-fill" style="width: 65%"></div>
+                <div class="progress-handle"></div>
+              </div>
+            </div>
+            <span class="total-time">05:08</span>
+          </div>
+          <div class="control-buttons">
+            <button class="control-btn">
+              <i class="fa-solid fa-backward-step"></i>
+            </button>
+            <button class="control-btn">
+              <i class="fa-solid fa-backward"></i>
+            </button>
+            <button class="play-pause-btn">
+              <i class="fa-solid fa-pause"></i>
+            </button>
+            <button class="control-btn">
+              <i class="fa-solid fa-forward"></i>
+            </button>
+            <button class="control-btn">
+              <i class="fa-solid fa-forward-step"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Controls -->
+        <div class="right-controls">
+          <button class="control-btn">
+            <i class="fa-solid fa-list"></i>
+          </button>
+          <button class="control-btn">
+            <i class="fa-solid fa-volume-high"></i>
+          </button>
+          <div class="volume-bar">
+            <div class="volume-track">
+              <div class="volume-fill" style="width: 80%"></div>
+            </div>
+          </div>
+          <button class="control-btn">
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
